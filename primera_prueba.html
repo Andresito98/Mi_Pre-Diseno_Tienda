@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title> VirSha WEB | Inicio</title>
+    <meta charset="UTF-8">
+
+    <!-- Esto de viewport sirve para controlar la composicion en los navegadores moviles. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- El atributo http-equiv proporciona un encabezado HTT -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Estilos Css -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text:400,500,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- Ir Arriba -->
+  <div class="go-top">
+    <span class="fas fa-angle-up"></span>
+  </div>
+
+    <!-- Menu de Navegacion -->
+    <header id="header">
+    <nav class="menu">
+     <div class="logo-box">
+       <h1><a href="./primera_prueba.html"> VirSha </a></h1>
+       <span class="btn-menu"><i class="fas fa-bars"></i></span>
+     </div>
+     
+     <div class="list-container">
+        <ul class="lists">
+            <li><a href="./primera_prueba.html" class="active">Inicio</a></li>
+            <li><a href="./paginas/Catalogo_Primera_Sudadera.html">Catalogo</a></li>
+        </ul>
+     </div>
+
+     <div class="list-container">
+        <ul class="lists">
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="./Contacto/Contacto.html">Contacto</a></li>
+        </ul>
+     </div>
+
+    </nav>
+ 
+    <!-- Imagen Header -->
+    <div class="img-header">
+     <div class="welcome">
+       <h1>BIENVENIDOS A VIRSHA !! </h1>
+       <hr>
+       <p>Diseños unicos y personalizados</p>
+       <button id="proyectos">Ver Sudaderas</button>
+       <button id="abajo">Hacer diseño</button>
+     </div>       
+    </div>
+    
+    <!-- Esto segun lo que veo hace que se posicone las lineas/bordes negras dandole unas cordenadas (bot and left) -->
+    <!-- En este caso al ser skw abajo afecta a la liena de arriba -->
+    <div class="skew-abajo"></div>
+
+    </header>
+
+ <main>
+
+   <!-- Nuestros proyectos -->
+   <section class="our-projects">
+   <!-- Esto segun lo que veo hace que se posicone las lineas/bordes negras dandole unas cordenadas (bot and left) -->
+    <!-- En este caso al ser skw arriba afecta a la liena de abajo -->
+      <div class="skew-arriba"></div>
+   <div class="deg-background"></div>
+   
+   <div class="ejeZproject">
+      <div class="container-project">
+        <div class="project-title">
+          <h2>Nuestros Proyectos</h2>
+          <hr>
+        </div>
+          <div class="project-img">
+            
+            <img src="Fotos_WEB_REPLICA/Jordan1_OFF-WHITE_Negro_1.jpg" alt="">
+            <img src="Fotos_WEB_REPLICA/Jordan1_OFF-WHITE_Negro_2.jpg" alt="">
+            <img src="Fotos_WEB_REPLICA/Jordan1_OFF-WHITE_Negro_3.jpg" alt="">
+            <img src="Fotos_WEB_REPLICA/Jordan1_OFF-WHITE_Blanco_1.jpg" alt="">
+            <img src="Fotos_WEB_REPLICA/Jordan1_OFF-WHITE_Blanco_2.jpg" alt="">
+            <img src="Fotos_WEB_REPLICA/Jordan1_OFF-WHITE_Blanco_3.jpg" alt="">
+            <img src="Fotos_WEB_REPLICA/Jordan1_DIOR.jpg" alt="">
+            <img src="Fotos_WEB_REPLICA/Jordan1_DIOR_2.jpg" alt="">
+            <img src="Fotos_WEB_REPLICA/Jordan1_DIOR_3.jpg" alt="">
+            
+         </div>
+   <div class="skew-abajo"></div>
+   </section>
+
+       <!-- Acerca de nosotros -->
+    <section class="acerca-de">
+    <div class="info-container">
+      <h1>Acerca de Nosotros</h1>
+      <p> Mi nombre es Andrés y soy un estudiante de informática, concretamente de un grado superior DAM (Desarrollo de Aplicaciones Multiplataforma) esto simplemente es un diseño que podría ser el comienzo de algo más adelante, aquí en esta página web estoy implementando los lenguajes que he ido aprendiendo en el grado superior</p>
+      <p> Empecé haciendo esta serie de diseños por mi propio gusto, cogiendo sudaderas oversize y añadiéndole diseños personalizados</p>
+      <div class="about-gallery">
+        <img src="img/img-4.jpg" alt="">
+        <img src="img/img-5.jpg" alt="">
+        <img src="img/img-6.jpg" alt="">
+      </div>
+
+      <div class="about-more"><button>Leer mas</button></div>
+
+    </div>
+    </section>
+
+</main>
+
+    <!-- Esto es el formulario del fin de la pagina-->
+ <!-- Footer -->
+ <footer class="footer">
+   <div class="skew-arriba"></div>
+  <div class="deg-footer"></div>
+ 
+  <div class="ejeZfooter">
+  <div class="footer-content">
+   <div class="footer-title">
+     <h2>Sudadera Personalizada</h2>
+     <hr>
+   </div>
+
+   <div class="formulario-content">
+     <form id="formulario">
+        <div class="mensaje-form">
+          <p>¿Quieres que te hagamos una sudadera original? ¡¡Colaboremos y hagamos realidad tus ideas !!</p>
+          <p>Dinos que tipo de Sudadera quieres junto con la talla y color :) </p>
+        </div>
+        <label for="user">Sudadera:</label>
+        <input type="text" id="user" name="user" placeholder="Ingresa la Sudadera que desea (Basica,Hoodie)">
+        <label for="user">Color:</label>
+        <input type="text" id="user" name="user" placeholder="Ingresa el Color que quieres (Negro , Blanco , Gris , Azul , Marron ... )">
+        <label for="user">Talla:</label>
+        <input type="text" id="user" name="user" placeholder="Ingresa la Talla que quieres ">
+
+        <label for="user">Nombre:</label>
+        <input type="text" id="user" name="user" placeholder="Ingresa tu Nombre">
+   
+        <label for="email">Correo Electronico:</label>
+        <input type="email" id="email" name="email" placeholder="Ingresa tu Correo Electronico">
+   
+        <label for="message">Escribe tu mensaje</label>
+        <textarea name="menssage" id="message" placeholder="Dime la idea que tienes pensada para ver como te lo puedo desarrollar en la sudadera , tambien indica en que parte te gustaria y todos los requisitos que quieres que tenga la sudadera.
+         
+         -_- ¡Puede ser lo que quieras! El tamaño del bordado puede ser tan grande como 8x8
+          como todas mis sudaderas.
+         -_- El precio puede oscilar entre 30$ y 90$
+                                                                                                   Una vez nos indique que deseas y te conteste si tienes alguna imagen como guia me la puedes enviar al mismo correo que te conteste"></textarea>
+   
+        <div class="send"><button>Enviar</button></div>
+   
+        <div class="mensaje-form">
+          <p>Escribenos un mensaje, con gusto tendras una respuesta mia lo antes posible.</p>
+        </div>
+     </form>
+     
+   </div>    
+
+    <main>
+   <!-- Testimonios -->
+   <section class="testimonios">
+    <div class="testimonios-title">
+     <h2>Testimonios</h2>
+     <hr>
+    </div>
+
+     <div class="box-testimonio">
+      <div class="card-testimonio">
+      <!-- Aqui se cambia la imagen del circulito. -->
+        <div class="card-img"><img src="img/img-4.jpg" alt=""></div>
+        <div class="testimonio-text">
+        <h4>Amanta Castillo</h4>
+        <p>" Al principio al ser una tienda tan nueva no confiaba demasiado pero ahora al comprar me dado cuenta de que merece la pena,no me fallo nada, desde la comunicacion como la transparencia con la tienda ."</p>
+        </div>
+      </div>
+
+      <div class="card-testimonio">
+      <!-- Aqui se cambia la imagen del circulito. -->
+          <div class="card-img"><img src="img/img-4.jpg" alt=""></div>
+          <div class="testimonio-text">
+          <h4>Clara Smilla</h4>
+          <p>" Simplemente algo innovador y poco comun , me gusta demasiado como quedan estas sudaderas, si alguien tiene curiosidad puede escribirme para enviarle imagenes yo mismo."</p>
+          </div>
+        </div>
+
+        <div class="card-testimonio">
+        <!-- Aqui se cambia la imagen del circulito. -->
+            <div class="card-img"><img src="img/img-4.jpg" alt=""></div>
+            <div class="testimonio-text">
+            <h4>Oscar Muñoz - Fundandor</h4>
+            <p>"Es la cuarta vez que hago un pedido en XXXXXX. Me encantan los productos que se ofrecen y los precios son razonables. Su servicio al cliente es excelente, al igual que su envío. Normalmente recibo mi paquete en menos de una semana después de realizar el pago. Sin embargo, advertencia. ¡Este sitio es extremadamente adictivo! 🙂"</p>
+            </div>
+          </div>
+
+          <div class="card-testimonio">
+          <!-- Aqui se cambia la imagen del circulito. -->
+              <div class="card-img"><img src="img/img-4.jpg" alt=""></div>
+              <div class="testimonio-text">
+              <h4>Roberto Perez</h4>
+              <p>"Tiene una variedad de sudaderas para elegir y la mayoría de ellas son materiales de gran calidad. Adecuado para comprar regalos o darse un capricho"</p>
+              <p>"Excelente servicio al cliente."</p>
+              </div>
+            </div>
+
+     </div>
+   </section>
+
+ </main> 
+
+
+    <!-- Esto es para cambiar el nombre del cuadro del fin de la pagina-->
+   <div class="footer-text">
+   <!-- section tambien vale,  -->
+
+    <footer class="formas_de_pago">
+			<div class="col-auto">
+      <!-- el ((target="_blank")) lo que hace es que al pinchar en la imagen o donde sea se abra pero en otra pagina aparte.-->
+				<a href="#"><img src="img/Iconos/Medios-de-Pago.png" alt=""></a>
+			</div>
+      </footer>
+
+     <p>&copy; VirSha Web - 2021 | Todos los derechos reservados.</p>
+
+     <footer class="row justify-content-center redes-sociales">
+			<div class="col-auto">
+      <!-- el ((target="_blank")) lo que hace es que al pinchar en la imagen o donde sea se abra pero en otra pagina aparte.-->
+				<a href="https://www.instagram.com/andresito.r.l98/" target="_blank"><img src="img/Iconos/Icono_Instagram2.png" alt=""></a>
+			</div>
+		</footer>
+
+   </div>
+  
+  
+
+  </div>
+</div>
+ </footer>
+
+<!-- Scripts -->
+<script src="https://kit.fontawesome.com/35db202371.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
+
+<!-- Esto son como unos apuntes generales del programa
+
+- Si quiero modificar hacia donde ir un boton por ejemplo arriba/abajo eso se edita
+en el apartado de JAVA y las medidas se modifican manualmente osea que si añado imagenes 
+o modifico cualquier cosa que altere el tamaño de la pagina , ya no ira al mismo sitio.
+
+
+-->
